@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de Coaching en Ligne</title>
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+h1{
+   margin-left: 100px;
+   margin-top: 50px;
+}
+
+.logo1{
+    color: #0a0a0a;
+    animation-name: logo1;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    }
+.logo2{
+    color: rgb(252, 248, 248);
+    animation-name: logo2;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    }
+@keyframes logo2 {
+        
+        from{
+            color: rgb(248, 244, 244);
+        }
+        to{
+            color: #000000;
+        }}
+@keyframes logo1 {
+        
+        from{
+            color: #000000;
+        }
+        to{
+            color: rgb(249, 248, 248);
+        }}
+header {
+    background-color: #FFD700;
+    color: #fff;
+    padding: 15px;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    margin-right: 50px;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #070707;
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 30px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+.kbira{
+        background-image: url(c:/Users/lenovo/Pictures/salle.png);
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+
+    }
+.kbi{
+       font-size: 70px;
+       font-weight: bolder;
+       color: rgb(7, 7, 7);
+       margin-top: 0px;
+       padding-top: 80px;
+       text-align: center;
+       font-style: italic;
+    }
+.p3{
+       
+       color: white;
+       margin-top: 20px;
+       text-align: center;
+       font-size: 20px;
+       font-weight: bolder;
+    }
+.boton{
+       padding: 10px;
+       background-color: #ffffff;
+       border: none;
+       border-radius: 5px;
+       font-size: larger;
+       margin-top: 30px;
+       
+    }
+.boton:hover{background-color: #f7d800;}
+   
+
+section {
+    padding: 40px;
+}
+.abc{
+    background-color: #f7d800;
+}
+.p4{
+    font-size: 35px;;  
+    font-weight: 800; 
+    color: #fbf9f9;
+    margin-bottom: 50px;
+    animation-name: titre;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes titre {
+        
+        from{
+            color: rgb(248, 244, 244);
+            font-size: 35px;
+        }
+        to{
+            color: #000000;
+            font-size:50px ;
+        }}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: 500px;
+    
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    transition: transform 0.5s ease-in-out;
+}
+
+.video-container:hover iframe {
+    transform: scale(1.1);
+}
+.localisation{
+    width: 1450px;
+}
+.histoire2 {
+max-width: 800px; 
+margin: 0 auto; 
+padding: 30px; 
+border-radius: 10px; 
+box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+background-color: #f5f5f5;
+margin-bottom: 50px;
+}
+.histoire2::after{  
+content:15.08;
+display:block;
+clear:both;
+}
+.histoire2 h2 {
+margin-bottom: 10px;
+margin-left: 430px;
+}
+.histoire2 p { line-height: 1.4;
+}
+.histoire2 img{
+width: 250px; 
+height: 250px;
+object-fit: cover;
+border-radius: 50%;
+float:left ;
+shape-outside: margin-box;
+margin: 0 20px 5px 0;
+}
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>KLB.Fitness</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="logo1"><span class="logo2">KLB.</span>Fitness salle</h1>
+            <nav>
+                <ul>
+                    <li><a href="#localisation">Video</a></li>
+                    <li><a href="#video">Localisation</a></li>
+                    <li><a href="#histoire">Histoire</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="kbira">
+            <div class="kbi">DÉPASSE-TOI ET ATTEINS<br>
+                TES OBJECTIFS !</div>
+            <p class="p3">
+                Trouve ton club Fitness Park le plus proche parmi un réseau de + 260<br> clubs de 6H à 23H en France,<br> DOM-TOM et à l'international
+            </p>
+            <center>
+                <a class="lien" href="C:\Users\lenovo\Documents\html amine\logggin.html"><button class="boton">contact us !!!</button></a></center>
+        </div>
+    <section class="abc">
+        <div id="localisation">
+            <center>
+                <p class="p4">video</p>
+            </center>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2_0CvSoeqKg?si=86PP8SN-GFtYRqro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div id="video">
+            <center>
+                <p class="p4">Localisation</p>
+            </center>
+            <center>
+                <iframe class="localisation" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14635.382474948108!2d-7.536590670711834!3d33.60286226715236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sma!4v1704648346834!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </center>
+        </div>
+        <div id="histoire">
+            <center>
+                <p class="p4">Histoire</p>
+            </center>
+            <div class="histoire2">
+                <img src="c:\Users\lenovo\Pictures\FITNESS3.png" alt="!!"> 
+                <h2>Histoire</h2> 
+                <p>Bienvenue à la salle de fitness Klb.FITNESS ! Notre histoire commence il y a dix ans, lorsque notre fondateur passionné, John Smith, a décidé de créer un lieu où les gens pourraient s'engager dans une vie plus saine et active.
+
+                 Avec une vision de transformer des vies grâce à l'exercice physique, Klb.FITNESS est rapidement devenue une communauté dynamique. Les premières installations modestes ont été accueillies avec enthousiasme par des membres dévoués, et notre salle a connu une croissance rapide.
+
+                 Au fil des ans, nous avons élargi nos installations pour offrir une variété d'équipements de pointe, des cours de fitness innovants et un personnel dévoué pour aider nos membres à atteindre leurs objectifs de bien-être. Klb.FITNESS n'est pas seulement un lieu de fitness, c'est une famille où chacun est encouragé et soutenu dans son parcours vers la santé et le bonheur.
+
+                 Aujourd'hui, notre salle de fitness est fière d'être un lieu où la communauté se rassemble pour transpirer, se surpasser et célébrer les réussites individuelles. Nous sommes ravis de faire partie de votre aventure vers une vie plus active et équilibrée.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    
+        <footer>
+            <p>&copy; 2024 Salle de Musculation klb.fitness</p>
+        </footer>
+</body>
+</html>

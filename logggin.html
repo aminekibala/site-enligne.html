@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page d'Authentification</title>
+  <style>
+    body {
+     background-color: white;
+    
+      
+    }
+    .image{
+      position: absolute;
+       margin-top: 0px;
+       padding-top: 0px;
+        left: 110px;
+        width:90% ;
+        height: 90%;
+        overflow: hidden;
+
+    }
+    .image img{
+      margin-top: 0px;
+       padding-top: 0px;
+        width: 600px ;
+        height: 600px;
+       
+
+    }
+
+    form {
+      backdrop-filter: blur(8px) brightness(1.2);
+      -webkit-backdrop-filter: blur(8px) ;
+      position: relative;
+      top: 90px;
+      margin-left: 910PX;
+      height: 450px;
+      width: 400px;
+      padding: 20px;
+      box-shadow: 0 0 10px black;
+      
+    }
+
+    label {
+      color:rgb(3, 3, 3);
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input {
+      opacity:  40%;
+      width: 88%;
+      padding: 8px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+      
+      
+    }
+
+    input[type="submit"] {
+      opacity: 100%;
+      background-color: #020202;
+      color: #fff; border-radius: 20px;
+      
+    }
+
+    input[type="submit"]:hover {
+      background-color: #f7d800; 
+    cursor: pointer;}
+
+  </style>
+</head>
+<body>
+  <div class="image">
+    <img src="c:\Users\lenovo\Pictures\FITNESS WHITE.png">
+  </div>
+
+  
+  <form id="authForm">
+    <label for="firstName">Prénom:</label><br>
+    <input type="text" id="firstName" name="firstName" required autofocus ><br>
+
+    <label for="lastName">Nom:</label><br>
+    <input type="text" id="lastName" name="lastName"  required><br>
+
+    <label for="address">Email:</label><br>
+    <input type="text" id="address" name="address" required><br>
+
+    <label for="phoneNumber"> Téléphone:</label><br>
+    <input type="tel" id="phoneNumber" name="phoneNumber" pattern="06[0-9]{8}" pattern="07[0-9]{8}" required><br><br>
+    
+
+    <input type="submit" value="Valider"><br>
+  </form>
+
+
+
+</body>
+</html>
+<!--linear-gradient(180deg, #ffffff 10%, rgba(241, 255, 0, 0.98) 100%)-->
